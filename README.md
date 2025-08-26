@@ -57,6 +57,38 @@ Sample Test on Local:
 reCAPTCHA is designed to block automation; in this solution, the script detects and waits for the reCAPTCHA iframe and checkbox as part of the login flow.
 Tests are structured to show automation strategy and framework usage, even though solving the captcha itself is outside the scope of automation.
 
+🔮 Future Improvements
+
+While this project demonstrates core UI test automation using Selenium + C# + NUnit, there are several opportunities to expand and enhance the framework:
+
+BDD with SpecFlow (Gherkin Scenarios)
+
+Introduce .feature files to describe test cases in plain English (Given-When-Then).
+
+Map these steps to C# step definitions for improved readability and collaboration with non-technical stakeholders.
+
+Parallel Test Execution
+
+Configure dotnet test with NUnit’s parallelization features or integrate with a cloud grid (e.g., BrowserStack, SauceLabs) for faster feedback.
+
+CI/CD Integration
+
+Integrate the test suite with GitHub Actions or Azure DevOps pipelines to run tests automatically on pull requests and deployments.
+
+Test Reporting
+
+Add reporting libraries (e.g., ExtentReports or Allure) to generate detailed HTML reports with screenshots for test runs.
+
+Cross-Browser Coverage
+
+Extend WebDriver setup to run tests across Chrome, Edge, and Firefox for full browser compatibility.
+
+Data-Driven Testing
+
+Parameterize test data (valid/invalid search terms, login credentials) from external sources like CSV, JSON, or a database for broader coverage.
+
+✨ This ensures the framework is not only functional but also scalable, maintainable, and adaptable for enterprise-grade QA automation.
+
 This project highlights my skills in C#, Selenium, NUnit, and POM best practices.
 
 ✨ Developed with passion for quality engineering by Bryce Loyola

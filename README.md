@@ -49,6 +49,10 @@ dotnet restore
 Run tests:
 dotnet test
 
+Sample Test on Local:
+<img width="1608" height="690" alt="image" src="https://github.com/user-attachments/assets/a28534ff-ebca-4d1a-a5e7-764e63ce82bc" />
+
+
 ⚡ Notes
 reCAPTCHA is designed to block automation; in this solution, the script detects and waits for the reCAPTCHA iframe and checkbox as part of the login flow.
 Tests are structured to show automation strategy and framework usage, even though solving the captcha itself is outside the scope of automation.
